@@ -5,18 +5,27 @@ body {
     height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 nav {
     background-color: rgb(190, 190, 190);
-    width: 95%;
+    width: auto;
+    margin: 1%;
     height: 10vh;
     padding: 15px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     position: absolute;
     top: 20px;
     left: 20px;
     border-radius: 15px;
+    position: sticky;
+    top: 0%;
 }
 
 nav ul {
@@ -45,6 +54,24 @@ li:nth-child(2) {
 .nav-link:hover {
     background-color: rgb(236, 236, 236);
     border-radius: 15px;
+}
+
+aside {
+    background-color: rgb(190, 190, 190);
+    flex-basis: 20%;
+    border-radius: 15px;
+    margin: 1%;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.posts {
+    flex-grow: 1;
 }
 
 .form-container {
