@@ -60,7 +60,7 @@ aside {
     flex-basis: 20%;
     border-radius: 15px;
     margin: 1%;
-    height: 80vh;
+    height:auto;
 }
 
 footer {
@@ -87,8 +87,35 @@ footer::after {
 }
 
 .posts {
+    display: flex;
     flex-grow: 1;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
 }
+
+.post{
+    border: 1px;
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 15px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    
+}
+
+header span{
+    margin-left: auto;
+}
+
+.like{
+    display: inline-block;
+    cursor: pointer;
+}
+
 
 .login-container {
     position: absolute;
