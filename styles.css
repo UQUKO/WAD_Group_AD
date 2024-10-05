@@ -36,8 +36,8 @@ nav > ul > li {
     display: inline;
 }
 
-/* Make the "|" larger. */
-li:nth-child(2) {
+/* Makes the "|" larger. */
+#separator {
     margin-right: 2px;
     margin-left: 2px;
     font-size: 3cap;
@@ -72,7 +72,6 @@ footer {
     padding: 1%;
     font-size: 30px;
 }
-
 
 footer::after {
     content: "";
