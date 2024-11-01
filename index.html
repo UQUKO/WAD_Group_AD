@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation bar -->
 	<nav>
         <ul>
             <li><a href="index.html" class="nav-link">Home</a></li>
@@ -17,83 +18,17 @@
         <a class="login" href="login.html"><img src="res/img/default_profile_pic.png" width="75" height="75" alt="Profile pic"></a>
     </nav>
 
+    <!-- Posts -->
     <div class="content">
         <aside></aside>
-
-        <div class="posts">
-            <div class="post">
-                <header>
-                    <img src="res/img/default_profile_pic.png" width="25" height="25" alt="Profile pic">
-                    <span>Oct 3, 2024</span>
-                </header>
-                <p>
-                    <img src="res/img/Tartu Old Town_Tarmo Haud.jpg" width="300" alt = "Tartu" >
-                    <br>
-                    Tartu 2024!</p>
-                    <div class="like">
-                        <img src="res/img/youtube-like-button-png-11.png" width="25" height="25" alt="Like button">
-                    </div>
-                </div>
-
-
-                <div class="post">
-                    <header>
-                        <img src="res/img/default_profile_pic.png" width="25" height="25" alt="Profile pic">
-                        <span>Oct 1, 2024</span>
-                    </header>
-                    <p>
-                    Anyone knows in which room the lab is today?   
-                    </p>
-                        <div class="like">
-                            <img src="res/img/youtube-like-button-png-11.png" width="25" height="25" alt="Like button">
-                        </div>
-                    </div>
-
-                    <div class="post">
-                        <header>
-                            <img src="res/img/default_profile_pic.png" width="25" height="25" alt="Profile pic">
-                            <span>Sept 28, 2024</span>
-                        </header>
-                        <p>
-                        Was the homework due this week or the next?   
-                        </p>
-                            <div class="like">
-                                <img src="res/img/youtube-like-button-png-11.png" width="25" height="25" alt="Like button">
-                            </div>
-                        </div>
-
-                        <div class="post">
-                            <header>
-                                <img src="res/img/default_profile_pic.png" width="25" height="25" alt="Profile pic">
-                                <span>Sept 24, 2024</span>
-                            </header>
-                            <p>
-                            <img src="res/img/1_5gJzummAqpBDGATo0fjU6Q.jpg" width="300" alt ="HTML pic">
-                            <br>
-                            Does anyone know what does this even do?   
-                            </p>
-                                <div class="like">
-                                    <img src="res/img/youtube-like-button-png-11.png" width="25" height="25" alt="Like button">
-                                </div>
-                            </div>
-
-                            <div class="post">
-                                <header>
-                                    <img src="res/img/default_profile_pic.png" width="25" height="25" alt="Profile pic">
-                                    <span>Sept 16, 2024</span>
-                                </header>
-                                <p>
-                                Hello World!   
-                                </p>
-                                    <div class="like">
-                                        <img src="res/img/youtube-like-button-png-11.png" width="25" height="25" alt="Like button">
-                                    </div>
-                                </div>
-        </div>
-
+        <div id="postsContainer" class="posts"></div>
         <aside></aside>
     </div>
 
+    <!-- Footer -->
     <footer>Footer</footer>
+	
+    <!-- include js file -->
+	<script src="posts.js"></script>
 </body>
 </html>

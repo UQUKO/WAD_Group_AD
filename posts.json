@@ -1,0 +1,39 @@
+[
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2024-10-28T14:30:00",
+        "postText": "Tartu 2024!",
+        "postLikes": 0,
+        "postImage": "res/img/Tartu Old Town_Tarmo Haud.jpg"
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2024-10-27T10:15:00",
+        "postText": "Anyone knows in which room the lab is today?",
+        "postLikes": 0
+    },
+	{
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2024-10-25T17:45:00",
+        "postText": "Was the homework due this week or the next?",
+        "postLikes": 0
+	},
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2024-10-25T17:45:00",
+        "postText": "Does anyone know what does this even do?",
+        "postLikes": 0,
+        "postImage": "res/img/1_5gJzummAqpBDGATo0fjU6Q.jpg"
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2024-10-20T19:00:00",
+        "postText": "Hello World!",
+        "postLikes": 0
+    }
+]
