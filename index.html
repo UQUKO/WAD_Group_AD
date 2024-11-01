@@ -15,7 +15,17 @@
             <li><a href="addPost.html" class="nav-link">addPost</a></li>
         </ul>
 
-        <a class="login" href="login.html"><img src="res/img/default_profile_pic.png" width="75" height="75" alt="Profile pic"></a>
+        <div class="profile-dropdown">
+            <a class="login" href="javascript:void(0);" onclick="toggleDropdown()">
+                <img src="res/img/default_profile_pic.png" width="75" height="75" alt="Profile pic">
+            </a>
+            <div id="dropdownMenu" class="dropdown-content">
+                <p id="userName">User Name</p>
+                <p id="userEmail">user@example.com</p>
+                <a href="javascript:void(0);" onclick="logout()">Logout</a>
+            </div>
+        </div>
+        <script src="dropdownMenu.js"></script>
     </nav>
 
     <!-- Posts -->
@@ -30,5 +40,6 @@
 	
     <!-- include js file -->
 	<script src="posts.js"></script>
+    
 </body>
 </html>
