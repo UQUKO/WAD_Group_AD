@@ -1,6 +1,7 @@
 async function loadPosts() {
     try {
         // consts
+        //const response = await fetch("https://api.npoint.io/cb42fd064c81bee531e1");
         const response = await fetch("posts.json");
         const posts = await response.json();
         const postsContainer = document.getElementById("postsContainer");
@@ -26,11 +27,6 @@ async function loadPosts() {
             // add to header.
             header.appendChild(authorImg);
             header.appendChild(postDate);
-
-
-            // txt
-            //const postText = document.createElement("p");
-            //postText.textContent = post.postText;
 
             // txt
             const postText = document.createElement("p");
