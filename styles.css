@@ -172,17 +172,25 @@ div + p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 45%;
-    height: 40%;
-    margin-top: 20px;
-    padding: 20px;
+    width: min(45%, 90vw);
+    height: auto;
+    padding: min(40px, 10vh);
     border: none;
     border-radius: 15px;
     background-color: rgb(173, 225, 176);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form {
+    width: 100%;
 }
 
 .form-group {
     margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form-group button {
@@ -214,6 +222,7 @@ label {
 
 textarea {
     width: 100%;
+    height: min(150px, 15vh);
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -222,18 +231,18 @@ textarea {
 }
 
 .post-file {
-    width: 30%;
+    width: 40%;
     padding: 10px;
     background-color: rgb(59, 59, 59);
     color: white;
     border: none;
     cursor: pointer;
     font-size: 16px;
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 10px 0;
+    min-width: 120px;
+    min-height: 50px;
 }
+
 .post-file:hover {
     background-color: rgb(101, 101, 101);
 }
@@ -247,10 +256,9 @@ textarea {
     border: none;
     cursor: pointer;
     font-size: 20px;
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 10px 0;
+    min-width: 120px;
+    min-height: 50px;
 }
 .submit-button:hover {
     background-color: rgb(139, 101, 192);
