@@ -35,5 +35,70 @@
         "dateCreated": "2024-10-20T19:00:00",
         "postText": "Hello World!",
         "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-12-07T19:00:00",
+        "postText": "A storm blew away 25% of my roof last night.\nOof.",
+        "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-12-06T19:00:00",
+        "postText": "Did you hear about the restaurant on the moon?\nGreat food, no atmosphere.",
+        "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-12-05T19:00:00",
+        "postText": "As I handed my Dad his 50th birthday card, he looked at me with tears in his eyes and said…\n“You know, one would have been enough.”",
+        "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-12-04T19:00:00",
+        "postText": " Who was the roundest knight at King Arthur’s round table?\nSir Cumference.",
+        "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-12-03T19:00:00",
+        "postText": "How does a penguin build his house?\nIgloos it together.",
+        "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-12-02T19:00:00",
+        "postText": "There’s been an explosion at a cheese factory in Paris.\nThere’s nothing left but de Brie.",
+        "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-12-01T19:00:00",
+        "postText": "A father in Iraq gave his daughter a new bag.\nShe said, “Thanks for the Baghdad.”",
+        "postLikes": 0
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-11-20T19:00:00",
+        "postText": "If Shaq and Alar Karis had a baby🤣",
+        "postLikes": 0,
+        "postImage": "res/img/Shaq_and_Karis.jpg"
+    },
+    {
+        "authorName": "",
+        "authorImage": "res/img/default_profile_pic.png",
+        "dateCreated": "2023-10-20T19:00:00",
+        "postText": "THIS WORKS!!!",
+        "postLikes": 0,
+        "postImage": "res/img/emotion.png"
     }
 ]

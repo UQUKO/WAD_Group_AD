@@ -29,8 +29,13 @@ async function loadPosts() {
 
 
             // txt
+            //const postText = document.createElement("p");
+            //postText.textContent = post.postText;
+
+            // txt
             const postText = document.createElement("p");
-            postText.textContent = post.postText;
+            postText.innerHTML = post.postText.replace(/\n/g, "<br>");
+
 
             // if there's an img, add it.
             if (post.postImage) {
