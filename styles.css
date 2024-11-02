@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     min-height: 5%;
+    font-size: large;
 }
 
 a {
@@ -10,7 +11,7 @@ a {
 }
 
 nav {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(53, 126, 69);
     width: auto;
     margin: 1%;
     height: 10vh;
@@ -25,6 +26,10 @@ nav {
     border-radius: 15px;
     position: sticky;
     top: 0%;
+}
+
+.login {
+    margin-right: 3%;
 }
 
 nav ul {
@@ -51,26 +56,39 @@ nav > ul > li {
 }
 
 .nav-link:hover {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(173, 225, 176);
     border-radius: 15px;
 }
 
 aside {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(210, 205, 241);
     flex-basis: 20%;
     border-radius: 15px;
     margin: 1%;
     height:auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(210, 205, 241);
     border-radius: 15px;
     margin: 1%;
     text-align: center;
     width: auto;
     padding: 1%;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer span:nth-of-type(1),
+footer span:nth-of-type(2) {
+    font-family: 'Dancing Script'; /* Use a cursive or fancy font */
+    font-size: 1.2em; /* Make the letter larger for emphasis */
+    color: #000000; /* Choose a color that stands out */
+    margin-right: 3px;
+    font-weight: 700;
 }
 
 footer::after {
@@ -96,8 +114,9 @@ footer::after {
 .post{
     border: 1px;
     padding: 20px;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(173, 225, 176);
     border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header{
@@ -127,7 +146,7 @@ header span{
     padding: 20px;
     border: none;
     border-radius: 15px;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(173, 225, 176);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +163,8 @@ div + p{
 }
 
 .highlight {
-    color: rgb(30, 148, 148);
+    color: rgb(149, 122, 174);
+    text-decoration: underline;
 }
 
 .form-container {
@@ -158,7 +178,7 @@ div + p{
     padding: 20px;
     border: none;
     border-radius: 15px;
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(173, 225, 176);
 }
 
 .form-group {
@@ -215,30 +235,31 @@ textarea {
     transform: translateX(-50%);
 }
 .post-file:hover {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(101, 101, 101);
 }
 
 
 .submit-button {
     width: 30%;
     padding: 10px;
-    background-color: rgb(51, 53, 190);
+    background-color: rgb(115, 0, 160);
     color: white;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     position: absolute;
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
 }
 .submit-button:hover {
-    background-color: rgb(46, 102, 255);
+    background-color: rgb(139, 101, 192);
 }
 
 .profile-dropdown {
     position:relative;
     display: inline;
+    margin-right: 3%;
 }
 
 .dropdown-content {

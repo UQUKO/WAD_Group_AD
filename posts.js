@@ -17,8 +17,8 @@ async function loadPosts() {
             // img
             const authorImg = document.createElement("img");
             authorImg.src = post.authorImage;
-            authorImg.width = 25;
-            authorImg.height = 25;
+            authorImg.width = 35;
+            authorImg.height = 35;
             authorImg.alt = `${post.authorName}'s profile picture`;
             // date
             const postDate = document.createElement("span");
