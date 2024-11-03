@@ -176,6 +176,7 @@ div + p{
     height: auto;
     padding: min(40px, 10vh);
     border: none;
+    z-index: -1;
     border-radius: 15px;
     background-color: rgb(173, 225, 176);
     display: flex;

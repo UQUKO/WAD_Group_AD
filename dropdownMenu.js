@@ -1,8 +1,8 @@
-var isLoggedIn = localStorage.getItem("isLoggedIn") === "true"; 
+var isLoggedIn = sessionStorage.getItem("isLoggedIn") === "true"; 
 
 console.log("isLoggedIn:", isLoggedIn);
-console.log("userName:", localStorage.getItem("userName"));
-console.log("userEmail:", localStorage.getItem("userEmail"));
+console.log("userName:", sessionStorage.getItem("userName"));
+console.log("userEmail:", sessionStorage.getItem("userEmail"));
 
 function toggleDropdown() {
     if (!isLoggedIn) {
@@ -15,10 +15,10 @@ function toggleDropdown() {
         dropdown.style.display = "none";
     } else {
 
-        var userName = localStorage.getItem("userName")
-        var userEmail = localStorage.getItem("userEmail")
+        var userName = sessionStorage.getItem("userName")
+        var userEmail = sessionStorage.getItem("userEmail")
 
-        //document.getElementById("userName").textContent = userName;
+        document.getElementById("userName").textContent = userName;
         document.getElementById("userEmail").textContent = userEmail;
 
         dropdown.style.display = "block";
@@ -39,5 +39,6 @@ window.onclick = function(event) {
 }
 
 function logout() {
+    sessionStorage.setItem("isLoggedIn", "false");
     window.location.href = "login.html";
 }
